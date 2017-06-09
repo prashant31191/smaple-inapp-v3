@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    >
+
+    <Button
+        android:id="@+id/btnSubscribe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#111"
+        android:text="Donate"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height2"
+            android:src="@drawable/image1"
+            android:scaleType="centerCrop"
+            android:layout_centerHorizontal="true"
+            />
+
+            <Button
+                android:id="@+id/btnApply1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ic_wallpaper_red_600_48dp"
+                android:drawablePadding="10dp"
+                android:padding="8dp"
+                android:text="Apply"
+                android:layout_centerVertical="true"
+                android:textSize="18dp"/>
+        </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height2"
+                    android:src="@drawable/image2"
+                    android:scaleType="centerCrop"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <Button
+                    android:id="@+id/btnApply2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ic_wallpaper_red_600_48dp"
+                    android:drawablePadding="10dp"
+                    android:padding="8dp"
+                    android:text="Apply"
+                    android:layout_centerVertical="true"
+                    android:textSize="18dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height2"
+                    android:src="@drawable/image3"
+                    android:scaleType="centerCrop"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <Button
+                    android:id="@+id/btnApply3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ic_wallpaper_red_600_48dp"
+                    android:drawablePadding="10dp"
+                    android:padding="8dp"
+                    android:text="Apply"
+                    android:layout_centerVertical="true"
+                    android:textSize="18dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height2"
+                    android:src="@drawable/image4"
+                    android:scaleType="centerCrop"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <Button
+                    android:id="@+id/btnApply4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ic_wallpaper_red_600_48dp"
+                    android:drawablePadding="10dp"
+                    android:padding="8dp"
+                    android:text="Apply"
+                    android:layout_centerVertical="true"
+                    android:textSize="18dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height2"
+                    android:src="@drawable/image5"
+                    android:scaleType="centerCrop"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <Button
+                    android:id="@+id/btnApply5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ic_wallpaper_red_600_48dp"
+                    android:drawablePadding="10dp"
+                    android:padding="8dp"
+                    android:text="Apply"
+                    android:layout_centerVertical="true"
+                    android:textSize="18dp"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height2"
+                    android:src="@drawable/image6"
+                    android:scaleType="centerCrop"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <Button
+                    android:id="@+id/btnApply6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ic_wallpaper_red_600_48dp"
+                    android:drawablePadding="10dp"
+                    android:padding="8dp"
+                    android:text="Apply"
+                    android:layout_centerVertical="true"
+                    android:textSize="18dp"/>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
